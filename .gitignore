@@ -1,5 +1,4 @@
-# Ignore SQLite database files
-*.sqlite3
+__pycache__/
 
 # Ignore virtual environments
 venv/
@@ -11,4 +10,12 @@ venv.bak/
 
 # Ignore environment variable files
 .env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
 
